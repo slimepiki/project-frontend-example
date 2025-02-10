@@ -8,7 +8,7 @@ export default function RootStyleRegistry({
   children,
 }: {
   children: JSX.Element;
-}) {
+}) { 
   const [cache] = useState(() => {
     const cache = createCache({ key: "css" });
     cache.compat = true;
